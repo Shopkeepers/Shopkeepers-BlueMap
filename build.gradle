@@ -63,16 +63,16 @@ tasks.withType(JavaCompile) {
 
 processResources {
 	inputs.property 'pluginVersion', pluginVersion
-	inputs.property 'dboUrl', dboUrl
-	inputs.property 'description', description
+	inputs.property 'pluginUrl', pluginUrl
+	inputs.property 'pluginDescription', pluginDescription
 
 	from project.sourceSets.main.resources.srcDirs
 
 	filesMatching('plugin.yml') {
 		expand([
 			'pluginVersion': pluginVersion,
-			'dboUrl': dboUrl,
-			'description': description
+			'pluginUrl': pluginUrl,
+			'pluginDescription': pluginDescription
 		])
 	}
 

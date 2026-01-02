@@ -1,8 +1,8 @@
 name: Shopkeepers-BlueMap
 version: '${pluginVersion}'
 authors: [blablubbabc]
-website: '${dboUrl}'
-description: '${description}'
+website: '${pluginUrl}'
+description: '${pluginDescription}'
 
 main: de.blablubbabc.shopkeepers.bluemap.ShopkeepersBlueMapPlugin
 depend: [Shopkeepers, BlueMap]
