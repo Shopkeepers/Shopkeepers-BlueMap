@@ -1,0 +1,43 @@
+# Whether to enable the Shopkeepers-BlueMap integration.
+enabled: true
+# Whether to enable debug level logging.
+debug: false
+# The display name of the shopkeepers marker set.
+marker-set-name: "Shops"
+# The marker configuration (icon, label, etc.) for the various shopkeeper types.
+# Supported placeholders for labels: shop_id, shop_uuid, shop_name (uses the shop id as fallback), shop_owner_name
+markers:
+  admin:
+    icon: "assets/shopkeepers/admin24.png"
+    anchor-x: 12
+    anchor-y: 12
+    label: "{shop_name}"
+  sell:
+    icon: "assets/shopkeepers/sell24.png"
+    anchor-x: 12
+    anchor-y: 12
+    label: "{shop_owner_name}'s {shop_name} (selling)"
+  buy:
+    icon: "assets/shopkeepers/buy24.png"
+    anchor-x: 12
+    anchor-y: 12
+    label: "{shop_owner_name}'s {shop_name} (buying)"
+  trade:
+    icon: "assets/shopkeepers/trade24.png"
+    anchor-x: 12
+    anchor-y: 12
+    label: "{shop_owner_name}'s {shop_name} (trading)"
+  book:
+    icon: "assets/shopkeepers/book24.png"
+    anchor-x: 12
+    anchor-y: 12
+    label: "{shop_owner_name}'s {shop_name} (books)"
+# The marker detail text.
+# Supported placeholders: shop_id, shop_uuid, shop_type, shop_object_type, shop_offers_count, shop_owner_name
+marker-detail: |-
+  <b>Id:</b> {shop_id}
+  <b>Unique id:</b> {shop_uuid}
+  <b>Type:</b> {shop_type}
+  <b>Object:</b> {shop_object_type}
+  <b>Owner:</b> {shop_owner_name}
+  <b>Offers:</b> {shop_offers_count}
