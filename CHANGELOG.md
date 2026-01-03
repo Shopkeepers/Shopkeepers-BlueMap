@@ -1,6 +1,8 @@
 # Changelog
 
-## 1.0.1 (TBA)
+## 1.1.1 (TBA)
+
+## 1.1.0 (2025-01-04)
 
 * Add command `/shopkeepers-bluemap`. Aliases: `shopkeeper-bluemap`, `skbm`.
   * Add command `/shopkeepers-bluemap help` (permission: `shopkeepers-bluemap.help`, default: `true`) to show the plugin help page.
