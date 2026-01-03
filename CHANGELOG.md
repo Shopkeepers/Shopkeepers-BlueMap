@@ -7,6 +7,7 @@
 * Improve the handling of BlueMap API lifecycle changes: Use a fair ReentrantLock for all of our BlueMap operations to ensure a consistent ordering of map operations and block during disable while there are still other map operations active on the server main thread.
 * Write web assets asynchronously.
 * Add project URL to plugin.yml.
+* Add api-version to plugin.yml.
 
 ## 1.0.0 (2025-01-03)
 

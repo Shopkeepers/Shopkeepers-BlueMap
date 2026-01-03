@@ -5,4 +5,5 @@ website: '${pluginUrl}'
 description: '${pluginDescription}'
 
 main: de.blablubbabc.shopkeepers.bluemap.ShopkeepersBlueMapPlugin
+api-version: '1.21.5'
 depend: [Shopkeepers, BlueMap]
