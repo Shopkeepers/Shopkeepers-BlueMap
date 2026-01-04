@@ -11,6 +11,7 @@ This is a Bukkit plugin that shows shopkeepers as markers on the [BlueMap](https
 
 ## Installation
 
+- Download the plugin jar (see [Releases](https://github.com/Shopkeepers/Shopkeepers-BlueMap/releases)).
 - Drop the plugin jar into your Bukkit server's `plugins` folder.
 - Restart your server.
 - Adjust the `plugins/Shopkeepers-BlueMap/config.yml` file as needed.
