@@ -1,4 +1,5 @@
-# Shopkeepers BlueMap Integration
+# Shopkeepers BlueMap Integration ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Shopkeepers/Shopkeepers-BlueMap/total?style=flat-square&color=green)
+
 
 This is a Bukkit plugin that shows shopkeepers as markers on the [BlueMap](https://www.spigotmc.org/resources/bluemap.83557/).
 
